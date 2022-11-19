@@ -372,7 +372,6 @@ line-height: 1.19;
     padding: 0;
     border: 1px solid var(--clients-logo-color);
     border-radius: 4px;
-    fill: var(--primary-text-color);
     background-color: transparent;
     cursor: pointer;
 }

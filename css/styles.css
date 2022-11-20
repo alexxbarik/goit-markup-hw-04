@@ -233,13 +233,26 @@ align-items: flex-start;
 .feature-list .item + .item {
     margin-left: 30px;
 }
-.feature-icon{
-display: flex;
-width: 270px;
-height: 120px;
-justify-content: center;
-align-items: center;
-background-color: var(--secondary-bg-color);
+.feature-list .item::before{
+    display: block;
+    content: "";
+    height: 120px;
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: var(--secondary-bg-color);
+}
+.icon-antenna::before{
+    background-image: url(../images/antenna\ 1.svg);
+}
+.icon-clock::before{
+    background-image: url(../images/clock\ 1.svg);
+}
+.icon-diagram::before{
+    background-image: url(../images/diagram\ 1.svg);
+}
+.icon-astronaut::before{
+    background-image: url(../images/astronaut\ 1.svg);
 }
 
 .feature-list .title {

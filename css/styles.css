@@ -165,10 +165,10 @@ fill: var(--accent-color);
 .hero {
 padding-top: 200px;
 padding-bottom: 200px;   
-text-align: center;
 }
 .overlay{
     max-width: 1600px;
+    height: 600px;
     margin-left: auto;
     margin-right: auto;
     background-image: linear-gradient( to right, 
@@ -177,6 +177,8 @@ text-align: center;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    text-align: center;
+    background-color: var(--primary-text-color);
 }
 
 .hero-title {
